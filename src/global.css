@@ -38,4 +38,7 @@ body, input, button {
 
 .content {
   padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

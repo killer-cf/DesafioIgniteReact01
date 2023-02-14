@@ -10,7 +10,7 @@ export function App() {
       <Header />
       <div className="content">
         <TaskForm />
-      </div>      
+      </div>   
     </>
   )
 }

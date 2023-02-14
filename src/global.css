@@ -17,6 +17,11 @@
 
 }
 
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--purple-dark);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -28,4 +33,9 @@ body, input, button {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.4;
+  background-color: var(--gray-600);
+}
+
+.content {
+  padding: 0 1rem;
 }

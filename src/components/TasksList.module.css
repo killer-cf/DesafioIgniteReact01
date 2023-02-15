@@ -56,8 +56,7 @@
 .header span {
   padding: 0.125rem 0.4rem;
   background: var(--gray-400);
-  width: 25px;
-  height: 19px;
+  font-size: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: center;

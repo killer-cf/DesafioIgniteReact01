@@ -1,8 +1,13 @@
 import { Trash } from 'phosphor-react';
 import styles from './Task.module.css';
 
+interface Task {
+  id: string,
+  text: string
+}
+
 interface TaskProps {
-  task: string;
+  task: Task,
 }
 
 export function Task({ task }: TaskProps) {
@@ -11,10 +16,10 @@ export function Task({ task }: TaskProps) {
       <div>
         <input 
           type="checkbox" 
-          id= 'checkboxId'
+          id={task.id}
         />
-        <label htmlFor='checkboxId' />
-        <p>{task}</p>
+        <label htmlFor={task.id} />
+        <p>{task.text}</p>
       </div>
       <button>
         <Trash />
